@@ -414,7 +414,7 @@ dp = load_data_mobil()
 st.markdown("""
 <div class="navbar">
     <div class="navbar-brand">
-        Tugas Besar DKA 
+        <strong>Tugas Besar DKA</strong>
     </div>
     <div class="navbar-links">
         <div class="navbar-link active">🏠</div>
