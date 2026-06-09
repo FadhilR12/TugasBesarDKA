@@ -1,0 +1,7 @@
+streamlit>=1.30.0
+numpy>=1.24.0
+# Tambahkan dependency backend kamu di bawah ini:
+# scikit-learn
+# joblib
+# pandas
+# requests  # jika menggunakan API
