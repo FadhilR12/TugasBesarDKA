@@ -63,6 +63,21 @@ def car_img_src(brand):
     key = BRAND_IMG.get(brand, "sedan")
     return CAR_IMAGES.get(key, CAR_IMAGES.get("sedan", ""))
 
+st.markdown("""
+<style>
+header {
+    visibility: hidden;
+}
+
+[data-testid="stHeader"] {
+    display: none;
+}
+
+[data-testid="stToolbar"] {
+    display: none;
+}
+</style>
+""", unsafe_allow_html=True)
 
 # ============================================================
 # CSS — Design System  (Light, 1920×1080 optimized)
